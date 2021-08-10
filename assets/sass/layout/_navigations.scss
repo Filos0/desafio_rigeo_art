@@ -1,0 +1,39 @@
+.navigation {
+    margin: 0 4%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.navbar-brand {
+    position: relative;
+    font-family: $montserrat;
+    font-weight: $semi-regular;
+    font-size: $xxx-large;
+    text-transform: uppercase;
+
+    &__art {
+        position: absolute;
+        font-size: $small;
+        top: 1rem;
+    }
+}
+
+.nav-link {
+    margin-left: 1.3rem;
+    
+}
+
+
+.navbar-toggler {
+    display: flex;
+    flex-direction: column;
+    
+    border: none; 
+    .navbar-toggler-icon{
+        border: 2px solid black;
+        height: 1px;
+        margin-top: 8px;
+        border-radius: 20px;
+    }
+}
+

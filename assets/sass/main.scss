@@ -1,0 +1,22 @@
+//Import of vendors
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+@import 'vendors/Bootstrap_v4.6.0/bootstrap.scss';
+
+//Import of variables
+@import 'abstracts/variables';
+@import 'abstracts/_mixins';
+
+//Import of base
+@import 'base/typography';
+@import 'base/base';
+@import 'base/reset';
+
+//Import of components
+@import 'components/buttons';
+
+
+// Import of layout
+@import 'layout/header';
+@import 'layout/main';
+@import 'layout/navigations';
+@import 'layout/article';

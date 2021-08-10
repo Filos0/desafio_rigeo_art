@@ -1,0 +1,36 @@
+.btn-follow,
+.btn-message {
+    border-radius: 0;
+    color: $whiteish;
+    width: 7rem;
+
+    @media (max-width: 768px) {
+        size: 95%;
+    }
+
+    @media (max-width: 576px) {
+        display: none;
+    }
+}
+
+
+.btn-message {
+    background-color: $light-blue;
+    &:hover, 
+    &:focus-within{
+        background-color: $blueish;
+        color: $whiteish;
+    }
+    
+}
+
+.btn-follow {
+    margin-right: .25rem;
+    background-color: $pinkish;
+    &:hover,
+    &:focus-within {
+        background-color: $redish;
+        color: $whiteish;
+    }
+    
+}
